@@ -4,12 +4,11 @@ import Login from "./Login";
 import { expect } from "@jest/globals";
 
 // Jest
-
 test('quando o input está vazio, não deve logar', () => {
 
     render(<Login />)
 
-    // encontrar no DOM o input
+    // encontrar no DOM o input (Explorer a classe - screem)
     const inputEmail = screen.getByPlaceholderText('Email')
     const inputSenha = screen.getByPlaceholderText('Senha')
 
