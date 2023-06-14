@@ -1,5 +1,9 @@
 # Simples Testes com ReactJs
 
+> Execução Do Projeto
+- npm i ou npm install
+- npm test
+
 ## Testando Components
 
 > Comandos executados
@@ -17,7 +21,3 @@
 
 > Sugestões para experimentos
 >> https://pt-br.react.dev/learn/start-a-new-react-project
-
-> Execução Do Projeto
-- npm i ou npm install
-- npm test
